@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Futura PT';
-    src: url('../fonts/FuturaPTBold.otf') format('otf'),
-         url('../fonts/FuturaPTExtraBold.otf') format('otf'),
-         url('../fonts/FuturaPTBook.otf') format('otf');
+    src: url('../fonts/FuturaPTBold.woff2') format('woff2'),
+         url('../fonts/FuturaPTExtraBold.woff2') format('woff2'),
+         url('../fonts/FuturaPTBook.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
