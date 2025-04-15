@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/FuturaPTBold.otf') format('otf'),
+         url('../fonts/FuturaPTExtraBold.otf') format('otf'),
+         url('../fonts/FuturaPTBook.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Futura PT', sans-serif;
+    background-color: #edede3;
+    min-height: 100vh;
+  }
+
+ a {
+    text-decoration: none;
+    color: var(--bs-blue);
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ff1430;
+    font-weight: 900;
+    line-height: 3rem;
+    margin: 16px 0 8px;
+}
+header {
+    display: inline-block;
+}
+.blackbkg {
+    background-color: #17141f;
+}
+.textoblanco {
+    color: #edede3;
+}
+.logoheader {
+    display: block;
+    margin: 0 auto;
+}
+.logo-img {
+    height: 30px !important;
+    width: 240px;
+    object-fit: contain;
+}
+.wappnot {
+    height: auto;
+    width: 80px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    transition: all 0.3s;
+}
+.wappnot:hover {
+    width: 82px;
+    transition: all 0.3s;
+}
+.greenbutton {
+    background-color: #258f52;
+    border-color: #258f52;
+}
+.greenbutton:hover {
+    background-color: #51a575;
+    border-color: #51a575;
+}
+.formulario {
+    margin-bottom: -2px;
+    background-color: #17141f;
+}
+.anchodsktop {
+    max-width: 900px
+}
+.logodenverblack {
+    max-width: 200px;
+    height: auto;
+}
